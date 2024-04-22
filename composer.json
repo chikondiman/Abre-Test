@@ -1,0 +1,36 @@
+{
+    "require": {
+      "php": ">=8.2.0",
+      "google/cloud-storage": "^1.37",
+      "google/cloud-core": "^1.55",
+      "ext-gd": "*",
+      "ext-exif": "*",
+      "sendgrid/sendgrid": "~7",
+      "guzzlehttp/guzzle": "^6.5|^7.4",
+      "guzzlehttp/psr7": "^2.6",
+      "phpoffice/phpspreadsheet": "~1",
+      "google/cloud-vision": "^0.22.0",
+      "google/cloud-language": "^0.26.0",
+      "phpseclib/phpseclib": "2.0",
+      "google/apiclient": "^2.0",
+      "ezyang/htmlpurifier": "^4.12",
+      "fpdf/fpdf": "1.86.0",
+      "learnosity/learnosity-sdk-php": ">=0.10",
+      "firebase/php-jwt": "6.0.0"
+  },
+    "autoload": {
+      "psr-4": {
+        "Abre\\": "classes/",
+        "Abre\\Repositories\\": "Repositories/",
+        "Abre\\Services\\": "Services/",
+        "Abre\\Views\\": "Views/",
+        "Abre\\Gateways\\": "Gateways/",
+        "Abre\\core\\": "core/",
+        "Abre\\modules\\": "modules/"
+      }
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^9"
+    }
+  }
+  
